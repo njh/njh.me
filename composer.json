@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/njh/Slim"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "slim/slim": "dev-negotiation"
+  }
+}
