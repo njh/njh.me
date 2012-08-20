@@ -1,0 +1,510 @@
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rss: <http://purl.org/rss/1.0/> .
+
+<>  a foaf:PersonalProfileDocument ;
+    rdfs:label "Nicholas Humfrey's FOAF File" ;
+    foaf:maker <http://njh.me/> ;
+    foaf:primaryTopic <http://njh.me/> .
+
+<http://njh.me/>
+    a foaf:Person ;
+    foaf:name "Nicholas J Humfrey" ;
+    foaf:title "Mr" ;
+    foaf:givenName "Nicholas" ;
+    foaf:familyName "Humfrey" ;
+    owl:sameAs <http://www.aelius.com/njh#me>,
+               <http://www.bbc.co.uk/users/njh#me>,
+               <http://dbtune.org/last-fm/njh>,
+               <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03>,
+               <http://southampton.rkbexplorer.com/id/person-09799> ;
+    cert:key [
+        a cert:RSAPublicKey ;
+        cert:exponent 65537 ;
+        cert:modulus "C2A25383B959FBC85877A7603E328626FA29BC06B1390895967B45CC0A773AE44A51282671EAD550F878D3A60CBA408DEBBCA6F39E1B6FCE97FCF09E9E8EB9E839A3C4E0975F477708D2C882FCBE1820F0404DFE6BD804B049A32FC507C6EA719DC05E040B222259A7CD288D8327BAD044480C07A1E14F60C08A6314E5E4525C2FC6EB7F2F7948B6C1414576D82BDEF746CCA83837408A1CBD402EFB8AA3DCF4D0F3DA969E1F2BCA54454008F684F9430C8886D79E99F6A24EFB90ABAC9A795A3E93778A4D43A76063410B444B412140FAA96B096EEC60AD81A4C8C389A389F426E3BCB9515E5A2ADA44DF05CAE8EE23A48EF19B3E9A0A19B19DAB1066E6D0BB"^^<http://www.w3.org/2001/XMLSchema#hexBinary>
+    ] ;
+    foaf:account <http://njh.me/#account-bbc>,
+                 <http://njh.me/#account-cpan>,
+                 <http://njh.me/#account-delicious>,
+                 <http://njh.me/#account-digg>,
+                 <http://njh.me/#account-ebay>,
+                 <http://njh.me/#account-facebook>,
+                 <http://njh.me/#account-flickr>,
+                 <http://njh.me/#account-geocaching>,
+                 <http://njh.me/#account-github>,
+                 <http://njh.me/#account-identica>,
+                 <http://njh.me/#account-lastfm>,
+                 <http://njh.me/#account-linkedin>,
+                 <http://njh.me/#account-musicbrainz>,
+                 <http://njh.me/#account-qdos>,
+                 <http://njh.me/#account-rubyforge>,
+                 <http://njh.me/#account-sourceforge>,
+                 <http://njh.me/#account-twitter>,
+                 <http://njh.me/#account-youtube> ;
+    foaf:based_near <http://dbpedia.org/resource/London> ;
+    foaf:gender "Male" ;
+    foaf:homepage <http://www.aelius.com/njh/> ;
+    foaf:made <http://www.aelius.com/njh/> ;
+    foaf:img <http://www.aelius.com/njh/me.jpg> ;
+    foaf:interest <http://dbpedia.org/resource/C_(programming_language)>, 
+                  <http://dbpedia.org/resource/Cycling>, 
+                  <http://dbpedia.org/resource/Debian>, 
+                  <http://dbpedia.org/resource/Electronica>, 
+                  <http://dbpedia.org/resource/Fancy_rat>, 
+                  <http://dbpedia.org/resource/IP_Multicast>, 
+                  <http://dbpedia.org/resource/IPv6>, 
+                  <http://dbpedia.org/resource/Linux>, 
+                  <http://dbpedia.org/resource/MQ_Telemetry_Transport>, 
+                  <http://dbpedia.org/resource/Macintosh>, 
+                  <http://dbpedia.org/resource/Metadata>, 
+                  <http://dbpedia.org/resource/Mountaineering>, 
+                  <http://dbpedia.org/resource/Music>, 
+                  <http://dbpedia.org/resource/MusicBrainz>, 
+                  <http://dbpedia.org/resource/OpenSound_Control>, 
+                  <http://dbpedia.org/resource/Open_source_software>, 
+                  <http://dbpedia.org/resource/Perl>, 
+                  <http://dbpedia.org/resource/Radio_broadcasting>, 
+                  <http://dbpedia.org/resource/Real-time_Transport_Protocol>, 
+                  <http://dbpedia.org/resource/Resource_Description_Framework>, 
+                  <http://dbpedia.org/resource/Ruby_(programming_language)>, 
+                  <http://dbpedia.org/resource/Ubiquitous_computing>, 
+                  <http://dbpedia.org/resource/Wireless_networks> ;
+    foaf:knows <http://barkingiguana.com/~craig/foaf.rdf#me>,
+               <http://danbri.org/foaf.rdf#danbri>,
+               <http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me>,
+               <http://mmt.me.uk/foaf.rdf#mischa>,
+               <http://moustaki.org/foaf.rdf#moustaki>,
+               <http://plugin.org.uk/swh.xrdf#me>,
+               <http://purl.org/net/das301.xrdf#me>,
+               <http://tomheath.com/id/me>,
+               <http://www.metade.org/foaf.rdf#me> ;
+    foaf:mbox <mailto:njh@aelius.com> ;
+    foaf:mbox_sha1sum "3f361af12a473b48852819e3ff9153783149a26a",
+                      "a8476e8096db2bde20a734c8446bb3d60befea2b" ;
+    foaf:nick "nick" ;
+    foaf:openid <http://www.aelius.com/njh/> ;
+    foaf:currentProject <http://www.aelius.com/njh#project-captivednsd>, 
+                        <http://www.aelius.com/njh#project-dbpedialite>, 
+                        <http://www.aelius.com/njh#project-dvbshout>, 
+                        <http://www.aelius.com/njh#project-easyrdf>, 
+                        <http://www.aelius.com/njh#project-jackmeter>, 
+                        <http://www.aelius.com/njh#project-jackminimix>, 
+                        <http://www.aelius.com/njh#project-madjack>, 
+                        <http://www.aelius.com/njh#project-mast>, 
+                        <http://www.aelius.com/njh#project-redstore>, 
+                        <http://www.aelius.com/njh#project-rotter>, 
+                        <http://www.aelius.com/njh#project-silentjack>, 
+                        <http://www.aelius.com/njh#project-ts2mpa>, 
+                        <http://www.aelius.com/njh#project-twolame> ;
+    foaf:pastProject <http://www.aelius.com/njh#project-asciitable>, 
+                     <http://www.aelius.com/njh#project-electromac>, 
+                     <http://www.aelius.com/njh#project-ino711d>, 
+                     <http://www.aelius.com/njh#project-liblo>, 
+                     <http://www.aelius.com/njh#project-mpg123>, 
+                     <http://www.aelius.com/njh#project-ssmpinglg>, 
+                     <http://www.aelius.com/njh#project-wavemetatools> ;
+    foaf:workplaceHomepage <http://www.bbc.co.uk/radio/> ;
+    foaf:schoolHomepage <http://www.ecs.soton.ac.uk/> .
+
+
+<http://www.aelius.com/njh/>
+    rdfs:label "Homepage of Nicholas J Humfrey" .
+
+<http://www.bbc.co.uk/radio/>
+    rdfs:label "BBC Radio and Music Online" .
+
+<http://www.ecs.soton.ac.uk/>
+    rdfs:label "Electronics and Computer Science, University of Southampton" .
+
+
+
+
+## PEOPLE ##
+
+<http://www.metade.org/foaf.rdf#me>
+    rdfs:label "Patrick Sinclair" .
+
+<http://barkingiguana.com/~craig/foaf.rdf#me>
+    rdfs:label "Craig Webster" .
+
+<http://danbri.org/foaf.rdf#danbri>
+    rdfs:label "Dan Brickley" .
+
+<http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me>
+    rdfs:label "Duncan Robertson" .
+
+<http://mmt.me.uk/foaf.rdf#mischa>
+    rdfs:label "Mischa Tuffield" .
+
+<http://moustaki.org/foaf.rdf#moustaki>
+    rdfs:label "Yves Raimond" .
+
+<http://plugin.org.uk/swh.xrdf#me>
+    rdfs:label "Steve Harris" .
+
+<http://purl.org/net/das301.xrdf#me>
+    rdfs:label "Daniel Smith" .
+
+<http://tomheath.com/id/me>
+    rdfs:label "Tom Heath" .
+
+
+
+
+## Accounts ##
+
+<http://njh.me/#account-bbc>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://www.bbc.co.uk/> ;
+    foaf:name "BBC" ;
+    foaf:page <http://www.bbc.co.uk/users/njh> .
+
+<http://njh.me/#account-cpan>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://search.cpan.org/> ;
+    foaf:name "CPAN" ;
+    foaf:page <http://search.cpan.org/~njh/> .
+
+<http://njh.me/#account-delicious>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://delicious.com/> ;
+    foaf:name "delicious" ;
+    foaf:page <http://delicious.com/njh> .
+
+<http://njh.me/#account-digg>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://digg.com/> ;
+    foaf:name "Digg" ;
+    foaf:page <http://digg.com/njh> .
+
+<http://njh.me/#account-ebay>
+    a foaf:OnlineAccount ;
+    foaf:accountName "n.humfrey" ;
+    foaf:accountServiceHomepage <http://www.ebay.co.uk/> ;
+    foaf:name "eBay" ;
+    foaf:page <http://myworld.ebay.co.uk/n.humfrey> .
+
+<http://njh.me/#account-facebook>
+    a foaf:OnlineAccount ;
+    foaf:accountName "508996252" ;
+    foaf:accountServiceHomepage <http://www.facebook.com/> ;
+    foaf:name "facebook" ;
+    foaf:page <http://www.facebook.com/people/Nick-Humfrey/508996252> .
+
+<http://njh.me/#account-flickr>
+    a foaf:OnlineAccount ;
+    foaf:accountName "77198640@N00" ;
+    foaf:accountServiceHomepage <http://www.flickr.com/> ;
+    foaf:name "flickr" ;
+    foaf:page <http://www.flickr.com/people/njh/> .
+
+<http://njh.me/#account-geocaching>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://www.geocaching.com/> ;
+    foaf:name "Geocaching" ;
+    foaf:page <http://www.geocaching.com/profile/?guid=b3392841-3b20-4827-ad5f-0a8f060bc960> .
+
+<http://njh.me/#account-github>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://github.com/> ;
+    foaf:name "github" ;
+    foaf:page <http://github.com/njh> .
+
+<http://njh.me/#account-identica>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://identi.ca/> ;
+    foaf:name "identi.ca" ;
+    foaf:page <http://identi.ca/njh> .
+
+<http://njh.me/#account-lastfm>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://www.last.fm/> ;
+    foaf:name "last.fm" ;
+    foaf:page <http://www.last.fm/user/njh> .
+
+<http://njh.me/#account-linkedin>
+    a foaf:OnlineAccount ;
+    foaf:accountName "nicholashumfrey" ;
+    foaf:accountServiceHomepage <http://www.linkedin.com/> ;
+    foaf:name "LinkedIn" ;
+    foaf:page <http://www.linkedin.com/in/nicholashumfrey> .
+
+<http://njh.me/#account-musicbrainz>
+    a foaf:OnlineAccount ;
+    foaf:accountName "nhumfrey" ;
+    foaf:accountServiceHomepage <http://musicbrainz.org/> ;
+    foaf:name "MusicBrainz" ;
+    foaf:page <http://musicbrainz.org/show/user/?username=nhumfrey> .
+
+<http://njh.me/#account-qdos>
+    a foaf:OnlineAccount ;
+    foaf:accountName "89295d77e0e390538aac662e3f3cae03" ;
+    foaf:accountServiceHomepage <http://qdos.com/> ;
+    foaf:name "QDOS" ;
+    foaf:page <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03> .
+
+<http://njh.me/#account-rubyforge>
+    a foaf:OnlineAccount ;
+    foaf:accountName "nhumfrey" ;
+    foaf:accountServiceHomepage <http://rubyforge.org/> ;
+    foaf:name "RubyForge" ;
+    foaf:page <http://rubyforge.org/users/nhumfrey/> .
+
+<http://njh.me/#account-sourceforge>
+    a foaf:OnlineAccount ;
+    foaf:accountName "nhumfrey" ;
+    foaf:accountServiceHomepage <http://sourceforge.net/> ;
+    foaf:name "SourceForge" ;
+    foaf:page <http://sourceforge.net/users/nhumfrey> .
+
+<http://njh.me/#account-twitter>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://twitter.com/> ;
+    foaf:name "Twitter" ;
+    foaf:page <http://twitter.com/njh> .
+
+<http://njh.me/#account-youtube>
+    a foaf:OnlineAccount ;
+    foaf:accountName "njh" ;
+    foaf:accountServiceHomepage <http://youtube.com/> ;
+    foaf:name "YouTube" ;
+    foaf:page <http://youtube.com/njh> .
+
+
+
+
+## PROJECTS ##
+
+<http://njh.me/#project-asciitable>
+    a foaf:Project ;
+    dc:description "ASCII character set table for Mac OS X." ;
+    foaf:homepage <http://www.aelius.com/njh/asciitable/> ;
+    foaf:name "ASCII Table" .
+
+<http://njh.me/#project-captivednsd>
+    a foaf:Project ;
+    dc:description "Captive Portal DNS server." ;
+    foaf:homepage <http://www.aelius.com/njh/captivednsd/> ;
+    foaf:name "captivednsd" .
+
+<http://njh.me/#project-dbpedialite>
+    a foaf:Project ;
+    dc:description "Wikipedia as Linked Data." ;
+    foaf:homepage <http://www.dbpedialite.org/> ;
+    foaf:name "dbpedia lite" .
+
+<http://njh.me/#project-dvbshout>
+    a foaf:Project ;
+    dc:description "Stream DVB audio to Icecast/Shoutcast." ;
+    foaf:homepage <http://www.aelius.com/njh/dvbshout/> ;
+    foaf:name "dvbshout" .
+
+<http://njh.me/#project-easyrdf>
+    a foaf:Project ;
+    dc:description "PHP library to make using RDF easy." ;
+    foaf:homepage <http://www.aelius.com/njh/easyrdf/> ;
+    foaf:name "EasyRdf" .
+
+<http://njh.me/#project-electromac>
+    a foaf:Project ;
+    dc:description "Electronics interface for Mac." ;
+    foaf:homepage <http://www.aelius.com/njh/electromac/> ;
+    foaf:name "Electromac" .
+
+<http://njh.me/#project-ino711d>
+    a foaf:Project ;
+    dc:description "HTTP interface for Inovonics 711 RDS Generator." ;
+    foaf:homepage <http://www.aelius.com/njh/ino711d/> ;
+    foaf:name "ino711d" .
+
+<http://njh.me/#project-jackmeter>
+    a foaf:Project ;
+    dc:description "Console based Digital Peak Meter for JACK." ;
+    foaf:homepage <http://www.aelius.com/njh/jackmeter/> ;
+    foaf:name "JACK Meter" .
+
+<http://njh.me/#project-jackminimix>
+    a foaf:Project ;
+    dc:description "Simple JACK Mixer controlled using OSC." ;
+    foaf:homepage <http://www.aelius.com/njh/jackminimix/> ;
+    foaf:name "Jack MiniMix" .
+
+<http://njh.me/#project-liblo>
+    a foaf:Project ;
+    dc:description "Lightweight OSC implementation." ;
+    foaf:homepage <http://liblo.sourceforge.net/> ;
+    foaf:name "liblo" .
+
+<http://njh.me/#project-madjack>
+    a foaf:Project ;
+    dc:description "MPEG Audio Deck with OSC support for JACK." ;
+    foaf:homepage <http://www.aelius.com/njh/madjack/> ;
+    foaf:name "MadJACK" .
+
+<http://njh.me/#project-mast>
+    a foaf:Project ;
+    dc:description "Multicast Audio Streaming Toolkit" ;
+    foaf:homepage <http://www.aelius.com/njh/mast/> ;
+    foaf:name "MAST" .
+
+<http://njh.me/#project-mpg123>
+    a foaf:Project ;
+    dc:description "Commandline MPEG Audio Player and library." ;
+    foaf:homepage <http://www.mpg123.org/> ;
+    foaf:name "mpg123" .
+
+<http://njh.me/#project-redstore>
+    a foaf:Project ;
+    dc:description "Lightweight RDF Triplestore powered by Redland." ;
+    foaf:homepage <http://www.aelius.com/njh/redstore/> ;
+    foaf:name "RedStore" .
+
+<http://njh.me/#project-rotter>
+    a foaf:Project ;
+    dc:description "Recording of Transmission / Audio Logger for JACK." ;
+    foaf:homepage <http://www.aelius.com/njh/rotter/> ;
+    foaf:name "Rotter" .
+
+<http://njh.me/#project-silentjack>
+    a foaf:Project ;
+    dc:description "Silence/dead air detector for JACK." ;
+    foaf:homepage <http://www.aelius.com/njh/silentjack/> ;
+    foaf:name "SilentJACK" .
+
+<http://njh.me/#project-ssmpinglg>
+    a foaf:Project ;
+    dc:description "Web interface to ssmping." ;
+    foaf:homepage <http://www.multicast.org.uk/lg/> ;
+    foaf:name "ssmping Looking Glass" .
+
+<http://njh.me/#project-ts2mpa>
+    a foaf:Project ;
+    dc:description "Convert MPEG-2 transport stream to MPEG Audio." ;
+    foaf:homepage <http://www.aelius.com/njh/ts2mpa/> ;
+    foaf:name "ts2mpa" .
+
+<http://njh.me/#project-twolame>
+    a foaf:Project ;
+    dc:description "MPEG Audio Layer 2 Encoder." ;
+    foaf:homepage <http://www.twolame.org/> ;
+    foaf:name "TwoLAME" .
+
+<http://njh.me/#project-wavemetatools>
+    a foaf:Project ;
+    dc:description "Tools for WAVE files with metadata." ;
+    foaf:homepage <http://www.aelius.com/njh/wavemetatools/> ;
+    foaf:name "Wave Meta Tools" .
+
+
+
+
+## Interests ##
+
+<http://dbpedia.org/resource/C_(programming_language)>
+    dc:title "C" ;
+    rdfs:label "C" .
+
+<http://dbpedia.org/resource/Cycling>
+    dc:title "Cycling" ;
+    rdfs:label "Cycling" .
+
+<http://dbpedia.org/resource/Debian>
+    dc:title "Debian" ;
+    rdfs:label "Debian" .
+
+<http://dbpedia.org/resource/Electronica>
+    dc:title "Electronica" ;
+    rdfs:label "Electronica" .
+
+<http://dbpedia.org/resource/Fancy_rat>
+    dc:title "Rats" ;
+    rdfs:label "Rats" .
+
+<http://dbpedia.org/resource/IP_Multicast>
+    dc:title "Multicast" ;
+    rdfs:label "Multicast" .
+
+<http://dbpedia.org/resource/IPv6>
+    dc:title "IPv6" ;
+    rdfs:label "IPv6" .
+
+<http://dbpedia.org/resource/Linux>
+    dc:title "Linux" ;
+    rdfs:label "Linux" .
+
+<http://dbpedia.org/resource/London>
+    rdfs:label "London" .
+
+<http://dbpedia.org/resource/MQ_Telemetry_Transport>
+    dc:title "MQTT" ;
+    rdfs:label "MQTT" .
+
+<http://dbpedia.org/resource/Macintosh>
+    dc:title "Mac" ;
+    rdfs:label "Mac" .
+
+<http://dbpedia.org/resource/Metadata>
+    dc:title "Metadata" ;
+    rdfs:label "Metadata" .
+
+<http://dbpedia.org/resource/Mountaineering>
+    dc:title "Mountaineering" ;
+    rdfs:label "Mountaineering" .
+
+<http://dbpedia.org/resource/Music>
+    dc:title "Music" ;
+    rdfs:label "Music" .
+
+<http://dbpedia.org/resource/MusicBrainz>
+    dc:title "MusicBrainz" ;
+    rdfs:label "MusicBrainz" .
+
+<http://dbpedia.org/resource/OpenSound_Control>
+    dc:title "OSC" ;
+    rdfs:label "OSC" .
+
+<http://dbpedia.org/resource/Open_source_software>
+    dc:title "Open Source" ;
+    rdfs:label "Open Source" .
+
+<http://dbpedia.org/resource/Perl>
+    dc:title "Perl" ;
+    rdfs:label "Perl" .
+
+<http://dbpedia.org/resource/Radio_broadcasting>
+    dc:title "Radio" ;
+    rdfs:label "Radio" .
+
+<http://dbpedia.org/resource/Real-time_Transport_Protocol>
+    dc:title "RTP" ;
+    rdfs:label "RTP" .
+
+<http://dbpedia.org/resource/Resource_Description_Framework>
+    dc:title "RDF" ;
+    rdfs:label "RDF" .
+
+<http://dbpedia.org/resource/Ruby_(programming_language)>
+    dc:title "Ruby" ;
+    rdfs:label "Ruby" .
+
+<http://dbpedia.org/resource/Ubiquitous_computing>
+    dc:title "Pervasive Computing" ;
+    rdfs:label "Pervasive Computing" .
+
+<http://dbpedia.org/resource/Wireless_networks>
+    dc:title "Wireless" ;
+    rdfs:label "Wireless" .
