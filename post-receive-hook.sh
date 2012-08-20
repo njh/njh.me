@@ -11,4 +11,4 @@ unset GIT_DIR
 git reset --hard HEAD
 
 # Update dependencies
-composer install
+composer --no-ansi --verbose --no-interaction install
