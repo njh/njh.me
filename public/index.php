@@ -13,7 +13,7 @@ $app = new Slim(array(
 
 // Setup routes
 $app->get('/', function () use ($app) {
-    $format = $app->respondTo('rdf', 'ttl', 'json');
+    $format = $app->respondTo('html', 'rdf', 'ttl', 'json');
     switch($format) {
         case 'html':
             return $app->redirect('http://www.aelius.com/njh/', 303);
