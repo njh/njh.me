@@ -21,8 +21,7 @@
     owl:sameAs <http://www.aelius.com/njh#me>,
                <http://www.bbc.co.uk/users/njh#me>,
                <http://dbtune.org/last-fm/njh>,
-               <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03>,
-               <http://southampton.rkbexplorer.com/id/person-09799> ;
+               <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03>;
     cert:key [
         a cert:RSAPublicKey ;
         cert:exponent 65537 ;
