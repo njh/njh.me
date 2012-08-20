@@ -1,0 +1,26 @@
+{
+    "hash": "86ee6de65164aa27dfc1cd712ec41c4a",
+    "packages": [
+        {
+            "package": "njh/easyrdf",
+            "version": "dev-master",
+            "source-reference": "02554daf3305b08cde83d10e2124aef51dc8cb18",
+            "commit-date": "1345498546"
+        },
+        {
+            "package": "slim/slim",
+            "version": "dev-negotiation",
+            "source-reference": "700ef1659d99f59f9cddabce0b94a397e3eac967",
+            "commit-date": "1345497240"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "slim/slim": 20,
+        "njh/easyrdf": 20
+    }
+}
