@@ -1,11 +1,10 @@
 @prefix cert: <http://www.w3.org/ns/auth/cert#> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rss: <http://purl.org/rss/1.0/> .
 
 <>  a foaf:PersonalProfileDocument ;
     rdfs:label "Nicholas Humfrey's FOAF File" ;
@@ -123,7 +122,7 @@
 
 
 
-## PEOPLE ##
+## People ##
 
 <http://www.metade.org/foaf.rdf#me>
     rdfs:label "Patrick Sinclair" .
@@ -286,7 +285,7 @@
 
 
 
-## PROJECTS ##
+## Project ##
 
 <http://njh.me/#project-asciitable>
     a foaf:Project ;
