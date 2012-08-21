@@ -18,8 +18,8 @@ $app->get('/', function () use ($app) {
         case 'html':
             return $app->redirect('http://www.aelius.com/njh/', 303);
         default:
-            # FIXME: return absolute URL
-            return $app->redirect("foaf.$format", 303);
+            $rootUrl = $app->request()->getUrl() . $app->request()->getScriptName();
+            return $app->redirect("$rootUrl/foaf.$format", 303);
     }
 });
 
