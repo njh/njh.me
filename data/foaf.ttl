@@ -117,6 +117,13 @@
     rdfs:label "Electronics and Computer Science, University of Southampton" .
 
 
+## My Old WebId ##
+
+<http://www.aelius.com/njh/#me>
+    a foaf:Person ;
+    rdfs:label "Nicholas Humfrey" ;
+    owl:sameAs <http://njh.me/> ;
+    foaf:homepage <http://www.aelius.com/njh/> .
 
 
 ## People ##
