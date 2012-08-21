@@ -108,12 +108,15 @@
 
 
 <http://www.aelius.com/njh/>
+    a foaf:Document ;
     rdfs:label "Homepage of Nicholas J Humfrey" .
 
 <http://www.bbc.co.uk/radio/>
+    a foaf:Document ;
     rdfs:label "BBC Radio and Music Online" .
 
 <http://www.ecs.soton.ac.uk/>
+    a foaf:Document ;
     rdfs:label "Electronics and Computer Science, University of Southampton" .
 
 
@@ -129,27 +132,35 @@
 ## People ##
 
 <http://www.metade.org/foaf.rdf#me>
+    a foaf:Person ;
     rdfs:label "Patrick Sinclair" .
 
 <http://barkingiguana.com/~craig/foaf.rdf#me>
+    a foaf:Person ;
     rdfs:label "Craig Webster" .
 
 <http://danbri.org/foaf.rdf#danbri>
+    a foaf:Person ;
     rdfs:label "Dan Brickley" .
 
 <http://mmt.me.uk/foaf.rdf#mischa>
+    a foaf:Person ;
     rdfs:label "Mischa Tuffield" .
 
 <http://moustaki.org/foaf.rdf#moustaki>
+    a foaf:Person ;
     rdfs:label "Yves Raimond" .
 
 <http://plugin.org.uk/swh.xrdf#me>
+    a foaf:Person ;
     rdfs:label "Steve Harris" .
 
 <http://purl.org/net/das301.xrdf#me>
+    a foaf:Person ;
     rdfs:label "Daniel Smith" .
 
 <http://tomheath.com/id/me>
+    a foaf:Person ;
     rdfs:label "Tom Heath" .
 
 
