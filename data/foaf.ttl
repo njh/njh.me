@@ -19,8 +19,7 @@
     foaf:familyName "Humfrey" ;
     owl:sameAs <http://www.aelius.com/njh#me>,
                <http://www.bbc.co.uk/users/njh#me>,
-               <http://dbtune.org/last-fm/njh>,
-               <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03>;
+               <http://dbtune.org/last-fm/njh>;
     cert:key [
         a cert:RSAPublicKey ;
         cert:exponent 65537 ;
@@ -39,7 +38,6 @@
                  <http://njh.me/#account-lastfm>,
                  <http://njh.me/#account-linkedin>,
                  <http://njh.me/#account-musicbrainz>,
-                 <http://njh.me/#account-qdos>,
                  <http://njh.me/#account-rubyforge>,
                  <http://njh.me/#account-sourceforge>,
                  <http://njh.me/#account-twitter>,
@@ -74,7 +72,6 @@
                   <http://dbpedia.org/resource/Wireless_networks> ;
     foaf:knows <http://barkingiguana.com/~craig/foaf.rdf#me>,
                <http://danbri.org/foaf.rdf#danbri>,
-               <http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me>,
                <http://mmt.me.uk/foaf.rdf#mischa>,
                <http://moustaki.org/foaf.rdf#moustaki>,
                <http://plugin.org.uk/swh.xrdf#me>,
@@ -132,9 +129,6 @@
 
 <http://danbri.org/foaf.rdf#danbri>
     rdfs:label "Dan Brickley" .
-
-<http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me>
-    rdfs:label "Duncan Robertson" .
 
 <http://mmt.me.uk/foaf.rdf#mischa>
     rdfs:label "Mischa Tuffield" .
@@ -246,13 +240,6 @@
     foaf:accountServiceHomepage <http://musicbrainz.org/> ;
     foaf:name "MusicBrainz" ;
     foaf:page <http://musicbrainz.org/show/user/?username=nhumfrey> .
-
-<http://njh.me/#account-qdos>
-    a foaf:OnlineAccount ;
-    foaf:accountName "89295d77e0e390538aac662e3f3cae03" ;
-    foaf:accountServiceHomepage <http://qdos.com/> ;
-    foaf:name "QDOS" ;
-    foaf:page <http://qdos.com/user/89295d77e0e390538aac662e3f3cae03> .
 
 <http://njh.me/#account-rubyforge>
     a foaf:OnlineAccount ;
