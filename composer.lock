@@ -4,14 +4,14 @@
         {
             "package": "njh/easyrdf",
             "version": "dev-master",
-            "source-reference": "02554daf3305b08cde83d10e2124aef51dc8cb18",
-            "commit-date": "1345498546"
+            "source-reference": "b3ffb4b32d2430143c62eea5f268708e9d12fd82",
+            "commit-date": "1345570543"
         },
         {
             "package": "slim/slim",
             "version": "dev-negotiation",
-            "source-reference": "700ef1659d99f59f9cddabce0b94a397e3eac967",
-            "commit-date": "1345497240"
+            "source-reference": "514ad7c074a0905cf8830cd2a9519ea03ad76561",
+            "commit-date": "1345554455"
         }
     ],
     "packages-dev": null,
