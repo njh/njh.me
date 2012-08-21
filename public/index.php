@@ -25,9 +25,10 @@ $app->get('/', function () use ($app) {
 
 $app->get('/foaf:format', function () use ($app) {
     $format = $app->respondTo('rdf', 'ttl', 'json');
+    $uri = $app->request()->getUrl() . $app->request()->getPath();
 
-    $foaf = new EasyRdf_Graph();
-    $foaf->parseFile('../data/foaf.ttl', 'turtle');
+    $foaf = new EasyRdf_Graph($uri);
+    $foaf->parseFile('../data/foaf.ttl', 'turtle', $uri);
     $app->response()->body( $foaf->serialise($format) );
 });
 
