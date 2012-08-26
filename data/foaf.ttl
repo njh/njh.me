@@ -450,6 +450,7 @@
     rdfs:label "Linux" .
 
 <http://dbpedia.org/resource/London>
+    dc:title "London" ;
     rdfs:label "London" .
 
 <http://dbpedia.org/resource/MQ_Telemetry_Transport>
