@@ -4,8 +4,8 @@
         {
             "package": "njh/easyrdf",
             "version": "dev-master",
-            "source-reference": "b3ffb4b32d2430143c62eea5f268708e9d12fd82",
-            "commit-date": "1345570543"
+            "source-reference": "50e1d791897c9e7c48f2f721414a3750f572a714",
+            "commit-date": "1345899605"
         },
         {
             "package": "slim/slim",

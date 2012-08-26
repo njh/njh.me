@@ -2,10 +2,6 @@
 
 require '../vendor/autoload.php';
 
-# FIXME: work out how to autoload EasyRdf
-set_include_path(get_include_path() . PATH_SEPARATOR . '../vendor/njh/easyrdf/lib/');
-require 'EasyRdf.php';
-
 // Prepare app
 $app = new Slim(array(
     'negotiation.enabled' => true
