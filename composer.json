@@ -1,13 +1,24 @@
 {
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "http://github.com/njh/Slim"
-    }
-  ],
   "require": {
     "php": ">=5.3.0",
     "slim/slim": "dev-negotiation",
     "njh/easyrdf": "dev-master"
-  }
+  },
+  "require-dev": {
+    "pear-phpunit/phpunit": "3.6.*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/njh/Slim"
+    },
+    {
+      "type": "pear",
+      "url": "pear.phpunit.de"
+    },
+    {
+      "type": "pear",
+      "url": "pear.symfony-project.com"
+    }
+  ]
 }

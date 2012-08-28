@@ -1,20 +1,53 @@
 {
-    "hash": "86ee6de65164aa27dfc1cd712ec41c4a",
+    "hash": "ee8f101ec6e675d70ca9911661b1bcac",
     "packages": [
         {
             "package": "njh/easyrdf",
             "version": "dev-master",
-            "source-reference": "50e1d791897c9e7c48f2f721414a3750f572a714",
-            "commit-date": "1345899605"
+            "source-reference": "af2b9ae99c6b40579390434d196cf30f047959c1",
+            "commit-date": "1346177680"
         },
         {
             "package": "slim/slim",
             "version": "dev-negotiation",
-            "source-reference": "514ad7c074a0905cf8830cd2a9519ea03ad76561",
-            "commit-date": "1345554455"
+            "source-reference": "08eeb5c77475cf604a03576dc2e2a65e5b77a768",
+            "commit-date": "1346178002"
         }
     ],
-    "packages-dev": null,
+    "packages-dev": [
+        {
+            "package": "pear-pear.phpunit.de/File_Iterator",
+            "version": "1.3.1"
+        },
+        {
+            "package": "pear-pear.phpunit.de/PHPUnit",
+            "version": "3.6.12"
+        },
+        {
+            "package": "pear-pear.phpunit.de/PHPUnit_MockObject",
+            "version": "1.1.1"
+        },
+        {
+            "package": "pear-pear.phpunit.de/PHP_CodeCoverage",
+            "version": "1.1.3"
+        },
+        {
+            "package": "pear-pear.phpunit.de/PHP_Timer",
+            "version": "1.0.2"
+        },
+        {
+            "package": "pear-pear.phpunit.de/PHP_TokenStream",
+            "version": "1.1.3"
+        },
+        {
+            "package": "pear-pear.phpunit.de/Text_Template",
+            "version": "1.1.1"
+        },
+        {
+            "package": "pear-pear.symfony-project.com/YAML",
+            "version": "1.0.6"
+        }
+    ],
     "aliases": [
 
     ],
