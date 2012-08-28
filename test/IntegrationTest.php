@@ -64,6 +64,13 @@ class IntegrationTest extends PHPUnit_Framework_TestCase {
 
 
 
+    public function testFoaf() {
+        $this->get('/foaf');
+        $this->assertEquals('200', $this->response->status());
+        $this->assertEquals('application/rdf+xml', $this->response['Content-Type']);
+        $this->assertRegExp('|<rdf:RDF |', $this->response->body());
+    }
+
     public function testFoafRdfXml() {
         $this->get('/foaf', array('ACCEPT' => 'application/rdf+xml'));
         $this->assertEquals('200', $this->response->status());
