@@ -307,7 +307,7 @@
 <http://njh.me/#project-dbpedialite>
     a foaf:Project ;
     dc:description "Wikipedia as Linked Data." ;
-    foaf:homepage <http://www.dbpedialite.org/> ;
+    foaf:homepage <http://dbpedialite.org/> ;
     foaf:name "dbpedia lite" .
 
 <http://njh.me/#project-dvbshout>
