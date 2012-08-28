@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 // Prepare app
 $app = new Slim(array(
@@ -24,7 +24,7 @@ $app->get('/foaf:format', function () use ($app) {
     $uri = $app->request()->getUrl() . $app->request()->getPath();
 
     $foaf = new EasyRdf_Graph($uri);
-    $foaf->parseFile('../data/foaf.ttl', 'turtle', $uri);
+    $foaf->parseFile(__DIR__ . '/../data/foaf.ttl', 'turtle', $uri);
     $app->response()->body( $foaf->serialise($format) );
 });
 
