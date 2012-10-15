@@ -9,7 +9,7 @@ $app = new Slim(array(
 
 // Setup routes
 $app->get('/', function () use ($app) {
-    $format = $app->respondTo('html', 'rdf', 'ttl', 'json');
+    $format = $app->respondTo('html', 'rdf', 'ttl', 'json', 'nt');
     switch($format) {
         case 'html':
             return $app->redirect('http://www.aelius.com/njh/', 303);
@@ -20,7 +20,7 @@ $app->get('/', function () use ($app) {
 });
 
 $app->get('/foaf:format', function () use ($app) {
-    $format = $app->respondTo('rdf', 'ttl', 'json');
+    $format = $app->respondTo('rdf', 'ttl', 'json', 'nt');
     $uri = $app->request()->getUrl() . $app->request()->getPath();
 
     $foaf = new EasyRdf_Graph($uri);
