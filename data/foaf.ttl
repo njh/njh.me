@@ -255,17 +255,17 @@
 
 <http://njh.me/#account-musicbrainz>
     a foaf:OnlineAccount ;
-    foaf:accountName "nhumfrey" ;
+    foaf:accountName "njh" ;
     foaf:accountServiceHomepage <http://musicbrainz.org/> ;
     foaf:name "MusicBrainz" ;
-    foaf:page <http://musicbrainz.org/show/user/?username=nhumfrey> .
+    foaf:page <http://musicbrainz.org/user/njh> .
 
 <http://njh.me/#account-rubyforge>
     a foaf:OnlineAccount ;
-    foaf:accountName "nhumfrey" ;
+    foaf:accountName "njh" ;
     foaf:accountServiceHomepage <http://rubyforge.org/> ;
     foaf:name "RubyForge" ;
-    foaf:page <http://rubyforge.org/users/nhumfrey/> .
+    foaf:page <http://rubyforge.org/users/njh/> .
 
 <http://njh.me/#account-sourceforge>
     a foaf:OnlineAccount ;
