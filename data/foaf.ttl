@@ -77,6 +77,8 @@
                <http://plugin.org.uk/swh.xrdf#me>,
                <http://purl.org/net/das301.xrdf#me>,
                <http://tomheath.com/id/me>,
+               <http://www.dajobe.org/foaf.rdf#i>,
+               <http://greggkellogg.net/foaf#me>,
                <http://www.metade.org/foaf.rdf#me> ;
     foaf:mbox <mailto:njh@aelius.com> ;
     foaf:mbox_sha1sum "3f361af12a473b48852819e3ff9153783149a26a",
@@ -129,6 +131,8 @@
     foaf:homepage <http://www.aelius.com/njh/> .
 
 
+
+
 ## People ##
 
 <http://www.metade.org/foaf.rdf#me>
@@ -162,6 +166,14 @@
 <http://tomheath.com/id/me>
     a foaf:Person ;
     rdfs:label "Tom Heath" .
+
+<http://www.dajobe.org/foaf.rdf#i>
+    a foaf:Person ;
+    rdfs:label "Dave Beckett" .
+
+<http://greggkellogg.net/foaf#me>
+    a foaf:Person ;
+    rdfs:label "Gregg Kellogg" .
 
 
 
