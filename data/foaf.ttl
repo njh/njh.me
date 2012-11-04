@@ -302,7 +302,7 @@
 
 
 
-## Project ##
+## Projects ##
 
 <http://njh.me/#project-asciitable>
     a foaf:Project ;
