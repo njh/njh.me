@@ -41,34 +41,35 @@
                  <http://njh.me/#account-sourceforge>,
                  <http://njh.me/#account-twitter>,
                  <http://njh.me/#account-youtube> ;
-    foaf:based_near <http://dbpedia.org/resource/London> ;
+    foaf:based_near <http://dbpedialite.org/things/17867#id> ;
     foaf:gender "Male" ;
     foaf:homepage <http://www.aelius.com/njh/> ;
     foaf:made <http://www.aelius.com/njh/> ;
     foaf:img <http://www.aelius.com/njh/me.jpg> ;
-    foaf:interest <http://dbpedia.org/resource/C_(programming_language)>,
-                  <http://dbpedia.org/resource/Cycling>,
-                  <http://dbpedia.org/resource/Debian>,
-                  <http://dbpedia.org/resource/Electronica>,
-                  <http://dbpedia.org/resource/Fancy_rat>,
-                  <http://dbpedia.org/resource/IP_Multicast>,
-                  <http://dbpedia.org/resource/IPv6>,
-                  <http://dbpedia.org/resource/Linux>,
-                  <http://dbpedia.org/resource/MQ_Telemetry_Transport>,
-                  <http://dbpedia.org/resource/Macintosh>,
-                  <http://dbpedia.org/resource/Metadata>,
-                  <http://dbpedia.org/resource/Mountaineering>,
-                  <http://dbpedia.org/resource/Music>,
-                  <http://dbpedia.org/resource/MusicBrainz>,
-                  <http://dbpedia.org/resource/OpenSound_Control>,
-                  <http://dbpedia.org/resource/Open_source_software>,
-                  <http://dbpedia.org/resource/Perl>,
-                  <http://dbpedia.org/resource/Radio_broadcasting>,
-                  <http://dbpedia.org/resource/Real-time_Transport_Protocol>,
-                  <http://dbpedia.org/resource/Resource_Description_Framework>,
-                  <http://dbpedia.org/resource/Ruby_(programming_language)>,
-                  <http://dbpedia.org/resource/Ubiquitous_computing>,
-                  <http://dbpedia.org/resource/Wireless_networks> ;
+    foaf:interest <http://dbpedialite.org/things/6021#id>,
+                  <http://dbpedialite.org/things/5931#id>,
+                  <http://dbpedialite.org/things/8242#id>,
+                  <http://dbpedialite.org/things/87606#id>,
+                  <http://dbpedialite.org/things/166919#id>,
+                  <http://dbpedialite.org/things/2527345#id>,
+                  <http://dbpedialite.org/things/15318#id>,
+                  <http://dbpedialite.org/things/6097297#id>,
+                  <http://dbpedialite.org/things/17867#id>,
+                  <http://dbpedialite.org/things/32695816#id>,
+                  <http://dbpedialite.org/things/19006979#id>,
+                  <http://dbpedialite.org/things/18933632#id>,
+                  <http://dbpedialite.org/things/20341#id>,
+                  <http://dbpedialite.org/things/18839#id>,
+                  <http://dbpedialite.org/things/20797#id>,
+                  <http://dbpedialite.org/things/384788#id>,
+                  <http://dbpedialite.org/things/277663#id>,
+                  <http://dbpedialite.org/things/23939#id>,
+                  <http://dbpedialite.org/things/173088#id>,
+                  <http://dbpedialite.org/things/26163#id>,
+                  <http://dbpedialite.org/things/53847#id>,
+                  <http://dbpedialite.org/things/25768#id>,
+                  <http://dbpedialite.org/things/31871#id>,
+                  <http://dbpedialite.org/things/33172#id>;
     foaf:knows <http://barkingiguana.com/~craig/foaf.rdf#me>,
                <http://danbri.org/foaf.rdf#danbri>,
                <http://mmt.me.uk/foaf.rdf#mischa>,
@@ -416,98 +417,98 @@
 
 ## Interests ##
 
-<http://dbpedia.org/resource/C_(programming_language)>
+<http://dbpedialite.org/things/6021#id>
     dc:title "C" ;
     rdfs:label "C" .
 
-<http://dbpedia.org/resource/Cycling>
+<http://dbpedialite.org/things/5931#id>
     dc:title "Cycling" ;
     rdfs:label "Cycling" .
 
-<http://dbpedia.org/resource/Debian>
+<http://dbpedialite.org/things/8242#id>
     dc:title "Debian" ;
     rdfs:label "Debian" .
 
-<http://dbpedia.org/resource/Electronica>
+<http://dbpedialite.org/things/87606#id>
     dc:title "Electronica" ;
     rdfs:label "Electronica" .
 
-<http://dbpedia.org/resource/Fancy_rat>
+<http://dbpedialite.org/things/166919#id>
     dc:title "Rats" ;
     rdfs:label "Rats" .
 
-<http://dbpedia.org/resource/IP_Multicast>
+<http://dbpedialite.org/things/2527345#id>
     dc:title "Multicast" ;
     rdfs:label "Multicast" .
 
-<http://dbpedia.org/resource/IPv6>
+<http://dbpedialite.org/things/15318#id>
     dc:title "IPv6" ;
     rdfs:label "IPv6" .
 
-<http://dbpedia.org/resource/Linux>
+<http://dbpedialite.org/things/6097297#id>
     dc:title "Linux" ;
     rdfs:label "Linux" .
 
-<http://dbpedia.org/resource/London>
+<http://dbpedialite.org/things/17867#id>
     dc:title "London" ;
     rdfs:label "London" .
 
-<http://dbpedia.org/resource/MQ_Telemetry_Transport>
+<http://dbpedialite.org/things/32695816#id>
     dc:title "MQTT" ;
     rdfs:label "MQTT" .
 
-<http://dbpedia.org/resource/Macintosh>
+<http://dbpedialite.org/things/19006979#id>
     dc:title "Mac" ;
     rdfs:label "Mac" .
 
-<http://dbpedia.org/resource/Metadata>
+<http://dbpedialite.org/things/18933632#id>
     dc:title "Metadata" ;
     rdfs:label "Metadata" .
 
-<http://dbpedia.org/resource/Mountaineering>
+<http://dbpedialite.org/things/20341#id>
     dc:title "Mountaineering" ;
     rdfs:label "Mountaineering" .
 
-<http://dbpedia.org/resource/Music>
+<http://dbpedialite.org/things/18839#id>
     dc:title "Music" ;
     rdfs:label "Music" .
 
-<http://dbpedia.org/resource/MusicBrainz>
+<http://dbpedialite.org/things/20797#id>
     dc:title "MusicBrainz" ;
     rdfs:label "MusicBrainz" .
 
-<http://dbpedia.org/resource/OpenSound_Control>
+<http://dbpedialite.org/things/384788#id>
     dc:title "OSC" ;
     rdfs:label "OSC" .
 
-<http://dbpedia.org/resource/Open_source_software>
+<http://dbpedialite.org/things/277663#id>
     dc:title "Open Source" ;
     rdfs:label "Open Source" .
 
-<http://dbpedia.org/resource/Perl>
+<http://dbpedialite.org/things/23939#id>
     dc:title "Perl" ;
     rdfs:label "Perl" .
 
-<http://dbpedia.org/resource/Radio_broadcasting>
+<http://dbpedialite.org/things/173088#id>
     dc:title "Radio" ;
     rdfs:label "Radio" .
 
-<http://dbpedia.org/resource/Real-time_Transport_Protocol>
+<http://dbpedialite.org/things/26163#id>
     dc:title "RTP" ;
     rdfs:label "RTP" .
 
-<http://dbpedia.org/resource/Resource_Description_Framework>
+<http://dbpedialite.org/things/53847#id>
     dc:title "RDF" ;
     rdfs:label "RDF" .
 
-<http://dbpedia.org/resource/Ruby_(programming_language)>
+<http://dbpedialite.org/things/25768#id>
     dc:title "Ruby" ;
     rdfs:label "Ruby" .
 
-<http://dbpedia.org/resource/Ubiquitous_computing>
+<http://dbpedialite.org/things/31871#id>
     dc:title "Pervasive Computing" ;
     rdfs:label "Pervasive Computing" .
 
-<http://dbpedia.org/resource/Wireless_networks>
+<http://dbpedialite.org/things/33172#id>
     dc:title "Wireless" ;
     rdfs:label "Wireless" .
