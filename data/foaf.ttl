@@ -18,7 +18,6 @@
     foaf:givenName "Nicholas" ;
     foaf:familyName "Humfrey" ;
     owl:sameAs <http://www.aelius.com/njh#me>,
-               <http://www.bbc.co.uk/users/njh#me>,
                <http://dbtune.org/last-fm/njh>;
     cert:key [
         a cert:RSAPublicKey ;
