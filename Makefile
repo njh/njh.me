@@ -1,4 +1,5 @@
 PHPUNIT=php ./vendor/bin/phpunit
+COMPOSER_FLAGS=--dev
 
 all: composer-install check deploy
 
