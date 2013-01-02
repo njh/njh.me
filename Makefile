@@ -1,6 +1,12 @@
 PHPUNIT=php ./vendor/bin/phpunit
 
-all: check deploy
+all: composer-install check deploy
+
+composer-install: composer.phar
+	php composer.phar $(COMPOSER_FLAGS) install
+
+composer.phar:
+	curl -s -z composer.phar -o composer.phar http://getcomposer.org/composer.phar
 
 check: check-foaf test
 
@@ -17,5 +23,9 @@ deploy:
 	@git diff-index --quiet HEAD || { echo "Working directory is dirty." ; exit 1; }
 	git push njh@njh.me:/srv/www/njh.me master
 
+clean:
+	rm -f composer.phar
+	rm -Rf vendor/
+	rm -Rf coverage/
 
 .PHONY: all check check-foaf test coverage deploy
